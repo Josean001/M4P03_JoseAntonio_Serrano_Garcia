@@ -33,31 +33,8 @@ th {
     background-color: #007BFF;
     color: white;
 }
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
 img {
     max-width: 100px;
     height: auto;
     border-radius: 4px;
-}
-button {
-    padding: 6px 12px;
-    margin: 5px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-#addEntry {
-    background-color: #007BFF;
-    margin: 20px;
-    padding: 10px 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-#addEntry:disabled {
-    background-color: gray;
-    cursor: not-allowed;
 }

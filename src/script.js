@@ -66,6 +66,7 @@ document.getElementById("addEntry").addEventListener("click", () => {
 
     const newEntry = {
         albumId: 1,
+        thumbnailUrl: null, // Removed unnecessary id and thumbnailUrl
         title: newTitle,
         url: "https://cursos.com/wp-content/uploads/2021/04/academia-tokio-school.jpg" // Removed unnecessary id and thumbnailUrl
     };
@@ -105,4 +106,3 @@ function actualizarListaIds() {
     recordIdsText = recordIdsText.slice(0, -2) + "</p>";
     recordIdsDiv.innerHTML = recordIdsText;
 }
-
